@@ -37,6 +37,12 @@ function Story() {
           <p className="tamil">திருமணம்</p>
         </div>
 
+        <div className="timeline-box">
+          <h3>🎉 Reception</h3>
+          <p>05.07.2026</p>
+          <p className="tamil">வரவேற்பு விழா</p>
+        </div>
+
       </div>
 
       <p className="story-extra">

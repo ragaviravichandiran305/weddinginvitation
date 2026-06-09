@@ -26,12 +26,7 @@ function RSVP() {
           <option>No | இல்லை</option>
         </select>
 
-        {/* FOOD */}
-        <select>
-          <option>Food Preference | உணவு விருப்பம்</option>
-          <option>Veg | சைவம்</option>
-          <option>Non-Veg | அசைவம்</option>
-        </select>
+ 
 
         {/* TRAVEL */}
         <select>
@@ -44,10 +39,7 @@ function RSVP() {
         <input type="time" placeholder="Arrival Time | வருகை நேரம்" />
 
         {/* GIFT MESSAGE */}
-        <input type="text" placeholder="Gift Message | பரிசு செய்தி" />
-
-        {/* MESSAGE */}
-        <input type="text" placeholder="Message | வாழ்த்து செய்தி" />
+   
 
         {/* BUTTON (optional but good UI) */}
         <button type="button">Submit 💌</button>

@@ -26,3 +26,11 @@
   background:#fff;
   border-radius:10px;
 }
+
+.timeline-box{
+  padding:20px;
+  background:#fff;
+  border-radius:10px;
+  min-width:200px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
