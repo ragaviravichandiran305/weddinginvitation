@@ -1,0 +1,30 @@
+.event-container{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.title{
+  font-size:40px;
+  color:#c2185b;
+}
+
+.event-card{
+  background:white;
+  width:80%;
+  margin:auto;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.tamil{
+  font-family:"Noto Serif Tamil";
+  color:#8b2e4a;
+  display:block;
+  margin-top:5px;
+}
+
+.invite{
+  font-size:18px;
+  margin-top:10px;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@300;500;700&family=Noto+Serif+Tamil:wght@400;700&display=swap');
+
+body{
+  margin:0;
+  font-family:"Poppins", sans-serif;
+
+  /* Animated soft wedding background */
+  background: linear-gradient(-45deg,#ffe4ec,#fff0f5,#fff8dc,#ffd1dc);
+  background-size:400% 400%;
+  animation: bg 10s ease infinite;
+}
+
+@keyframes bg{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+/* NAVBAR */
+.navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  padding:14px;
+
+  background:rgba(255,255,255,0.2);
+  backdrop-filter: blur(20px);
+  z-index:1000;
+}
+
+.navbar button{
+  border:none;
+  background:none;
+  font-size:14px;
+  font-weight:500;
+  cursor:pointer;
+  color:#5a2a2a;
+  transition:0.3s;
+}
+
+.navbar button:hover{
+  color:#c2185b;
+  transform:scale(1.05);
+}
+
+/* CENTER INVITATION */
+.invite-center{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+/* TITLE */
+.reception{
+  font-size:30px;
+  color:#b8860b;
+  letter-spacing:3px;
+}
+
+/* NAME */
+.name{
+  font-family:"Alex Brush", cursive;
+  font-size:150px;
+  color:#c2185b;
+  margin:10px 0;
+  text-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* TAMIL NAME */
+.tamil-name{
+  font-family:"Noto Serif Tamil", serif;
+  font-size:34px;
+  color:#7a3652;
+}
+
+/* DATE */
+.date{
+  font-size:18px;
+  margin-top:10px;
+  color:#444;
+}
+
+/* PAGE CENTER */
+.page{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+/* ANIMATION */
+.animate{
+  animation: fade 0.8s ease;
+}
+
+@keyframes fade{
+  from{opacity:0; transform:scale(0.9);}
+  to{opacity:1; transform:scale(1);}
+}
+
+/* FOOTER */
+.footer{
+  text-align:center;
+  padding:18px;
+
+  background:rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+
+  color:#5a2a2a;
+}
+
+.tamil-footer{
+  font-family:"Noto Serif Tamil", serif;
+}

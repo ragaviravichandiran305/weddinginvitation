@@ -1,0 +1,78 @@
+
+.location-container{
+  text-align:center;
+  padding:60px 20px;
+  min-height:100vh;
+  background: linear-gradient(135deg, #fff0f5, #fdf6ff);
+  font-family:"Segoe UI", sans-serif;
+}
+
+h1{
+  font-size:40px;
+  color:#c2185b;
+}
+
+h2{
+  color:#333;
+  margin-top:10px;
+}
+
+.tamil{
+  color:#8b2e4a;
+  font-family:"Noto Serif Tamil";
+}
+
+.address{
+  color:#555;
+  margin:10px 0;
+}
+
+/* MAP LINK */
+.map-link{
+  display:inline-block;
+  margin:10px 0;
+  padding:10px 15px;
+  background:#c2185b;
+  color:white;
+  border-radius:10px;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.map-link:hover{
+  background:#a3154b;
+}
+
+/* QR */
+.qr-box{
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+  padding:15px;
+  background:white;
+  width:fit-content;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* INFO BOX */
+.info-box{
+  margin-top:20px;
+  background:white;
+  padding:15px;
+  border-radius:12px;
+  max-width:400px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* INVITE BOX */
+.invite-box{
+  margin-top:20px;
+  padding:15px;
+  font-style:italic;
+  color:#444;
+}

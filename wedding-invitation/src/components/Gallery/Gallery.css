@@ -1,0 +1,107 @@
+.gallery-container{
+  text-align:center;
+  padding:60px 20px;
+  min-height:100vh;
+  background: linear-gradient(135deg, #fff0f5, #fdf6ff);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* TITLE */
+.gallery-container h1{
+  font-size:42px;
+  color:#c2185b;
+  margin-bottom:10px;
+}
+
+/* TEXT */
+.subtitle{
+  font-size:18px;
+  color:#555;
+  margin-top:8px;
+}
+
+.note{
+  font-size:16px;
+  color:#777;
+  font-style:italic;
+}
+
+.tamil{
+  font-family: "Noto Serif Tamil";
+  color:#8b2e4a;
+  display:block;
+  margin-top:5px;
+}
+
+/* FILE INPUT */
+input[type="file"]{
+  margin:25px 0;
+  padding:12px;
+  border:2px dashed #c2185b;
+  border-radius:12px;
+  background:white;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+input[type="file"]:hover{
+  background:#ffe4ec;
+}
+
+/* GRID LAYOUT (IMPORTANT) */
+.gallery-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap:20px;
+  margin-top:30px;
+  padding:10px;
+
+  /* makes clean alignment */
+  justify-items:center;
+}
+
+/* IMAGE STYLE (FIXED SIZE) */
+.gallery-grid img{
+  width:100%;
+  max-width:250px;
+  height:220px;            /* ✅ FIXED SIZE */
+  object-fit:cover;       /* ✅ no stretching */
+  border-radius:18px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  transition:0.4s ease;
+  border:3px solid transparent;
+}
+
+/* HOVER EFFECT */
+.gallery-grid img:hover{
+  transform:scale(1.05);
+  border:3px solid #c2185b;
+  box-shadow:0 15px 35px rgba(194,24,91,0.3);
+}
+
+/* ANIMATION */
+.gallery-grid img{
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:scale(0.8);
+  }
+  to{
+    opacity:1;
+    transform:scale(1);
+  }
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width:600px){
+  .gallery-container h1{
+    font-size:30px;
+  }
+
+  .gallery-grid img{
+    height:180px;
+  }
+}

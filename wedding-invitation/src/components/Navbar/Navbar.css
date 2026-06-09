@@ -1,0 +1,36 @@
+.navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  padding:18px 10px;
+
+  background:rgba(255,255,255,0.85);
+  backdrop-filter:blur(12px);
+
+  box-shadow:0 2px 15px rgba(0,0,0,0.08);
+  z-index:1000;
+}
+
+.navbar button{
+  border:none;
+  background:none;
+  cursor:pointer;
+
+  font-family:"Cormorant Garamond", serif;
+  font-size:18px;
+  font-weight:600;
+
+  color:#8b5e3c;
+  transition:all 0.3s ease;
+  padding:8px 10px;
+  border-radius:8px;
+}
+
+.navbar button:hover{
+  color:#c2185b;
+  background:rgba(194,24,91,0.08);
+  transform:translateY(-2px);
+}
