@@ -126,7 +126,9 @@ function Gallery() {
             See More Photos | மேலும் புகைப்படங்கள்
           </button>
         </div>
+      
       )}
+      console.log("test update");
     </div>
   );
 }
