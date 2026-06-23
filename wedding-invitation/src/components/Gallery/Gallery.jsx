@@ -128,7 +128,7 @@ function Gallery() {
         </div>
       
       )}
-      console.log("test update");
+       console.log("UPDATE TEST 123");
     </div>
   );
 }
